@@ -4,10 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+/* imports  */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/*  */
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1724,3 +1728,118 @@ section {
   text-transform: capitalize;
   font-style: italic;
 }
+
+
+/* *********** Library css starts here */
+
+#lib-hero {
+  width: 100%;
+  height: 90vh;
+  background: url("../img/library-collage.jpg") center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lib-hero .container {
+  padding-top: 80px;
+}
+
+#lib-hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#lib-hero .hero-card {
+  width: 100%;
+  height: 20rem;
+  padding: 1rem 0 1rem 0;
+  overflow-y: scroll;
+  position: relative;
+  border: 1px solid;
+  border-radius: 1em;
+}
+
+
+#lib-hero h2 {
+  color: #009970;
+  margin-bottom: 40px;
+  font-size: 3em;
+
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+#lib-hero p{
+  padding: 0 1em 0 1em;
+}
+
+
+.lib-tile {
+  margin: 1px;
+  border: 2px #009970 solid;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lib-tile:hover{
+  background-color: #009970;
+  color: #fff;
+  border: 2px #009970 solid;
+}
+
+.lib-tile h4{
+  padding: 5px 0 5px 0;
+  text-transform: capitalize;
+}
+
+.gen-info-title h2 {
+
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  
+  }
+  .gen-info-title h2::after {
+  
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #009970;
+  bottom: 0;
+  left: 0;
+  
+  }
+
+  .icon{
+    padding: 0.5rem 0 ;
+    border: 1px solid #fff;
+    border-radius: 25%;
+  }
+
+  .prog-el{
+    cursor: pointer;
+    margin: 0.5rem 0;
+  }
+  .prog-el:hover{
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .history{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+  }
