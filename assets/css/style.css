@@ -1843,3 +1843,12 @@ section {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 25px;
   }
+
+
+  .partners{}
+  
+  .partners img{
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
