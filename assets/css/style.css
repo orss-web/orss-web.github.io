@@ -1708,26 +1708,6 @@ section {
   padding: 1em 1em;
 }
 
-.staff{
-
-}
-.staff img{
-  width: 14em;
-  border: 1px #fff solid;
-  border-radius: 1em;
-  opacity: 0.8;
-}
-.staff h4{
-  padding-top: 0.5em;
-  text-transform: capitalize;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.staff p{
-  text-transform: capitalize;
-  font-style: italic;
-}
 
 
 /* *********** Library css starts here */
@@ -1852,3 +1832,26 @@ section {
     aspect-ratio: 3/2;
     object-fit: contain;
   }
+
+  .staff img{
+    width: 14em;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+  }
+
+  .staff{
+
+  }
+  .staff h4{
+    padding-top: 0.5em;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .staff p{
+    text-transform: capitalize;
+    font-style: italic;
+  }
+  
